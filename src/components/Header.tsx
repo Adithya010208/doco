@@ -141,7 +141,9 @@ export default function Header({
             </div>
             
             <div className="text-left hidden md:block">
-              <h4 className="text-[11px] font-extrabold text-slate-900 dark:text-white leading-none truncate">Dr. S. Chen</h4>
+              <h4 className="text-[11px] font-extrabold text-slate-900 dark:text-white leading-none truncate">
+                {doctor.name.replace(', MD', '')}
+              </h4>
               <p className="text-[9px] text-blue-600 dark:text-blue-400 font-bold uppercase mt-0.5 tracking-wider truncate">Cardiology</p>
             </div>
             <ChevronDown className="w-3.5 h-3.5 text-slate-400 hidden md:block shrink-0" />

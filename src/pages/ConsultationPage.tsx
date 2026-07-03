@@ -63,7 +63,7 @@ const MOCK_SCENARIOS: Record<string, MockScenario> = {
     scenarioName: 'Cardiovascular Hypertension & Palpitations Evaluation',
     transcript: [
       { speaker: 'Doctor', text: "Hello Robert, good to see you again. How have you been feeling since we increased your Lisinopril to 20mg daily last month?", time: "00:02" },
-      { speaker: 'Patient', text: "Hello, Dr. Chen. My blood pressure at home has been much more controlled, usually around 130 over 80. However, I've had these brief, uncomfortable thumping sensations in my chest over the last week.", time: "00:15" },
+      { speaker: 'Patient', text: "Hello, Dr. Adithi. My blood pressure at home has been much more controlled, usually around 130 over 80. However, I've had these brief, uncomfortable thumping sensations in my chest over the last week.", time: "00:15" },
       { speaker: 'Doctor', text: "I see. Let's do a physical exam. Your heart rate is stable at 72 beats per minute, but I can hear occasional premature beats. Have these thumps been accompanied by any shortness of breath, dizziness, or chest tightness?", time: "00:32" },
       { speaker: 'Patient', text: "No, no dizziness or breathing issues. Just a sudden 'skipped beat' feeling that lasts for a second, mostly when I am resting in the evening.", time: "00:48" },
       { speaker: 'AI Annotation', text: "[Vitals Logged] BP: 138/85 mmHg, HR: 72 bpm, SpO2: 98% on room air. EKG log checks reveal benign premature ventricular contractions (PVCs).", time: "00:58" },
@@ -97,7 +97,7 @@ const MOCK_SCENARIOS: Record<string, MockScenario> = {
     scenarioName: 'Post-Myocardial Infarction 6-Week Recovery Assessment',
     transcript: [
       { speaker: 'Doctor', text: "Hi Eleanor, congratulations on completing your 6-week cardiac rehab program! How is your stamina feeling?", time: "00:03" },
-      { speaker: 'Patient', text: "Thank you, Dr. Chen. I feel remarkably better. I can walk for 30 minutes on a flat surface without any tightness or breathing trouble.", time: "00:14" },
+      { speaker: 'Patient', text: "Thank you, Dr. Adithi. I feel remarkably better. I can walk for 30 minutes on a flat surface without any tightness or breathing trouble.", time: "00:14" },
       { speaker: 'Doctor', text: "That is spectacular news. Your vitals today look optimal: blood pressure is 118 over 72, and heart rate is resting nicely at 68 bpm.", time: "00:30" },
       { speaker: 'Patient', text: "I've been very careful with my medications. I take Metoprolol, Clopidogrel, and Aspirin every single morning.", time: "00:45" },
       { speaker: 'AI Annotation', text: "[Allergy Guard Enabled] Patient has a documented history of 'Mild GI distress with Aspirin'. No active angioedema or bleeding signs noted today.", time: "00:55" },
@@ -131,7 +131,7 @@ const MOCK_SCENARIOS: Record<string, MockScenario> = {
     scenarioName: 'Type 2 Diabetes Control & Hyperlipidemia Audit',
     transcript: [
       { speaker: 'Doctor', text: "Good morning Marcus, great news on your lab reports today. Your HbA1c is down to 6.9%, which means your diabetes is under tight control!", time: "00:03" },
-      { speaker: 'Patient', text: "That's fantastic, Dr. Chen. The Metformin 1000mg twice daily has been working, and I have been diligent with carbohydrate restriction.", time: "00:15" },
+      { speaker: 'Patient', text: "That's fantastic, Dr. Adithi. The Metformin 1000mg twice daily has been working, and I have been diligent with carbohydrate restriction.", time: "00:15" },
       { speaker: 'Doctor', text: "Your effort is clearly paying off. However, your lipid panel shows LDL is still high at 130 mg/dL and total cholesterol is 224 mg/dL.", time: "00:32" },
       { speaker: 'Patient', text: "I see. I'm currently on Atorvastatin 20mg. Should we change that?", time: "00:44" },
       { speaker: 'Doctor', text: "Yes. Given your diabetic status, we target a much stricter LDL level, ideally under 70 mg/dL. I want to step up your Atorvastatin dosage from 20mg to 40mg once daily at bedtime to aggressively lower that risk.", time: "01:05" },
@@ -167,7 +167,7 @@ const MOCK_SCENARIOS: Record<string, MockScenario> = {
     scenarioName: 'Orthostatic Tachycardia Autonomic Review',
     transcript: [
       { speaker: 'Doctor', text: "Hello Clara. Your clinical log shows some severe morning tachycardia and lightheadedness. Let's review what's happening.", time: "00:03" },
-      { speaker: 'Patient', text: "Yes, Dr. Chen. When I first stand up in the morning, my heart rates leaps up from 70 straight to 125 beats per minute. I feel so dizzy, like the room is spinning.", time: "00:15" },
+      { speaker: 'Patient', text: "Yes, Dr. Adithi. When I first stand up in the morning, my heart rates leaps up from 70 straight to 125 beats per minute. I feel so dizzy, like the room is spinning.", time: "00:15" },
       { speaker: 'Doctor', text: "Your tilt table test was strongly positive for Postural Orthostatic Tachycardia Syndrome, or POTS. Your sitting blood pressure today is low-normal at 102 over 64 mmHg.", time: "00:35" },
       { speaker: 'Patient', text: "The Fludrocortisone and Midodrine help slightly, but the tachycardia flares make me feel exhausted.", time: "00:48" },
       { speaker: 'Doctor', text: "Understood. Since beta-blockers might drop your blood pressure further, I want to add Ivabradine 5mg twice daily. It works directly on the sinus node to slow your heart rate down without reducing your systemic blood pressure.", time: "01:08" },
@@ -204,7 +204,7 @@ const MOCK_SCENARIOS: Record<string, MockScenario> = {
     scenarioName: 'Dilated Cardiomyopathy Congestive Heart Failure Flare-Up',
     transcript: [
       { speaker: 'Doctor', text: "Harvey, I saw your urgent appointment request and the weight warning from your home scale log. How are you feeling today?", time: "00:02" },
-      { speaker: 'Patient', text: "Not good, Dr. Chen. I am quite short of breath today, even just resting on the sofa. I noticed my ankles are swollen, and I've put on over 3 pounds since Wednesday.", time: "00:15" },
+      { speaker: 'Patient', text: "Not good, Dr. Adithi. I am quite short of breath today, even just resting on the sofa. I noticed my ankles are swollen, and I've put on over 3 pounds since Wednesday.", time: "00:15" },
       { speaker: 'Doctor', text: "Let me check. Your blood oxygen saturation is slightly lower at 94% on room air, and your heart rate is rapid at 88 beats per minute. I can hear crackles at the bases of your lungs.", time: "00:34" },
       { speaker: 'Patient', text: "Is this a fluid build-up from my cardiomyopathy?", time: "00:44" },
       { speaker: 'Doctor', text: "Yes, this represents a mild congestive heart failure flare-up. Your heart is having trouble keeping up with fluid filtration. Your BNP level of 1200 pg/mL is also critically elevated.", time: "01:05" },
@@ -451,7 +451,7 @@ export default function ConsultationPage({
           reason: activeScenario.suggestedReferral.reason,
           urgency: activeScenario.suggestedReferral.urgency,
           date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
-          signedBy: 'Dr. Sarah Chen, MD',
+          signedBy: 'Dr. Adithi, MD',
           referenceHash: `REF-${Math.floor(100000 + Math.random() * 900000)}`
         });
       }
@@ -606,7 +606,7 @@ export default function ConsultationPage({
       reason: `Patient is currently recovering under direct clinical supervision following an evaluation for: ${activePatient.condition}.`,
       restrictions: `Strict cardiac rest. No isometric exertion. Lift limit < 15 lbs. Stay hydrated and monitor physiological vitals.`,
       date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
-      signedBy: 'Dr. Sarah Chen, MD',
+      signedBy: 'Dr. Adithi, MD',
       referenceHash: `CERT-${Math.floor(100000 + Math.random() * 900000)}`
     });
   };
@@ -1365,7 +1365,7 @@ export default function ConsultationPage({
                                 reason: `Evaluation of refractory cardiovascular dysautonomia / cardiac telemetry PVC monitoring.`,
                                 urgency: 'Urgent',
                                 date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
-                                signedBy: 'Dr. Sarah Chen, MD',
+                                signedBy: 'Dr. Adithi, MD',
                                 referenceHash: `REF-${Math.floor(100000 + Math.random() * 900000)}`
                               });
                             }}

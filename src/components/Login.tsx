@@ -245,7 +245,7 @@ export default function Login({ onLoginSuccess }: LoginProps) {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#00a8cc]"></span>
             </div>
-            <span>Fast Login (Preset: Dr. Sarah Chen)</span>
+            <span>Fast Login (Preset: Dr. Adithi)</span>
           </button>
 
           {/* Portal metadata */}

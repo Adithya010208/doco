@@ -318,8 +318,8 @@ export default function PatientsPage({
       restDays: certRestDays,
       symptoms: certSymptomSummary,
       restrictions: certRestrictions,
-      signedBy: 'Dr. Sarah Chen, MD',
-      signatureStamp: 'DOCO_SECURE_AUTH_SARAH_CHEN_CRITICAL_CARDIO'
+      signedBy: 'Dr. Adithi, MD',
+      signatureStamp: 'DOCO_SECURE_AUTH_ADITHI_CRITICAL_CARDIO'
     });
   };
 
@@ -1558,7 +1558,7 @@ export default function PatientsPage({
 
                       <div className="text-center">
                         <div className="font-sans font-black text-xs text-slate-950 dark:text-white italic relative inline-block">
-                          Dr. Sarah Chen, MD
+                          Dr. Adithi, MD
                           {/* Simulated cryptographic seal circle */}
                           <div className="absolute -top-4 -right-4 w-12 h-12 rounded-full border border-dashed border-blue-500/20 rotate-45 flex items-center justify-center text-[7px] font-bold text-blue-500/30 uppercase select-none pointer-events-none">
                             DOCO SEAL

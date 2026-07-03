@@ -169,12 +169,12 @@ export default function LifeQrPage({ patients, onNavigateToPatient }: LifeQrPage
 
   // Hospital Access Confirmation Token Log
   const [isAccessConfirmed, setIsAccessConfirmed] = useState(true);
-  const [verifierName, setVerifierName] = useState('Dr. Sarah Chen, MD');
+  const [verifierName, setVerifierName] = useState('Dr. Adithi, MD');
   const [verifierDept, setVerifierDept] = useState('Cardiology ICU');
 
   // Emergency Clinical Notes & Timeline States
   const [noteText, setNoteText] = useState('');
-  const [noteAuthor, setNoteAuthor] = useState('Dr. Sarah Chen, MD');
+  const [noteAuthor, setNoteAuthor] = useState('Dr. Adithi, MD');
   
   const [timelineEvents, setTimelineEvents] = useState<EmergencyTimelineEvent[]>([
     {
@@ -196,7 +196,7 @@ export default function LifeQrPage({ patients, onNavigateToPatient }: LifeQrPage
       status: 'Clinical Note',
       timestamp: '08:12 AM',
       description: 'Dual antiplatelet therapy confirmed via LifeQR list. Avoiding administration of contraindicated aspirin protocols due to acute severe nausea.',
-      author: 'Dr. Sarah Chen, MD'
+      author: 'Dr. Adithi, MD'
     }
   ]);
 
@@ -277,7 +277,7 @@ export default function LifeQrPage({ patients, onNavigateToPatient }: LifeQrPage
             status: 'LifeQR Scanned & Decrypted',
             timestamp: formattedTime,
             description: `LifeQR token [${selectedPatientPreset.lifeQrCode}] resolved. Blood Type: ${selectedPatientPreset.bloodType}. Allergies: ${selectedPatientPreset.allergies.join(', ')}.`,
-            author: 'Dr. Sarah Chen, MD'
+            author: 'Dr. Adithi, MD'
           }
         ]);
       }

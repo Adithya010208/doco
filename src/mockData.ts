@@ -7,8 +7,8 @@ import { Doctor, Patient, Appointment, Notification } from './types';
 
 export const mockDoctor: Doctor = {
   id: 'doc-101',
-  name: 'Dr. Sarah Chen, MD',
-  email: 'sarah.chen@docohealth.com',
+  name: 'Dr. Adithi, MD',
+  email: 'adithi@docohealth.com',
   specialty: 'Cardiovascular Medicine',
   hospital: 'DOCO Medical Center',
   avatar: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300',
@@ -46,8 +46,8 @@ export const mockPatients: Patient[] = [
       { name: 'Atorvastatin', dosage: '20mg', frequency: 'Once daily (QD) at bedtime', startDate: '2026-03-12', status: 'Active' }
     ],
     previousPrescriptions: [
-      { id: 'rx-101', date: '2025-09-10', name: 'Amlodipine', dosage: '5mg', frequency: 'Once daily', doctorName: 'Dr. Sarah Chen, MD', refills: 0 },
-      { id: 'rx-102', date: '2026-03-12', name: 'Lisinopril', dosage: '10mg', frequency: 'Once daily', doctorName: 'Dr. Sarah Chen, MD', refills: 1 }
+      { id: 'rx-101', date: '2025-09-10', name: 'Amlodipine', dosage: '5mg', frequency: 'Once daily', doctorName: 'Dr. Adithi, MD', refills: 0 },
+      { id: 'rx-102', date: '2026-03-12', name: 'Lisinopril', dosage: '10mg', frequency: 'Once daily', doctorName: 'Dr. Adithi, MD', refills: 1 }
     ],
     emergencyContacts: [
       { name: 'Linda Miller', relationship: 'Spouse', phone: '+1 (555) 123-4568' }
@@ -164,7 +164,7 @@ export const mockPatients: Patient[] = [
       { name: 'Atorvastatin', dosage: '20mg', frequency: 'Once daily (QD) at bedtime', startDate: '2025-11-20', status: 'Active' }
     ],
     previousPrescriptions: [
-      { id: 'rx-301', date: '2025-08-14', name: 'Glipizide', dosage: '5mg', frequency: 'Once daily', doctorName: 'Dr. Sarah Chen, MD', refills: 0 }
+      { id: 'rx-301', date: '2025-08-14', name: 'Glipizide', dosage: '5mg', frequency: 'Once daily', doctorName: 'Dr. Adithi, MD', refills: 0 }
     ],
     emergencyContacts: [
       { name: 'Sarah Thompson', relationship: 'Daughter', phone: '+1 (555) 456-7891' }
@@ -216,7 +216,7 @@ export const mockPatients: Patient[] = [
       { name: 'Midodrine HCl', dosage: '5mg', frequency: 'Three times daily (TID)', startDate: '2026-06-02', status: 'Active' }
     ],
     previousPrescriptions: [
-      { id: 'rx-401', date: '2026-01-15', name: 'Propranolol HCl', dosage: '10mg', frequency: 'As needed (PRN) for severe tachycardia', doctorName: 'Dr. Sarah Chen, MD', refills: 2 }
+      { id: 'rx-401', date: '2026-01-15', name: 'Propranolol HCl', dosage: '10mg', frequency: 'As needed (PRN) for severe tachycardia', doctorName: 'Dr. Adithi, MD', refills: 2 }
     ],
     emergencyContacts: [
       { name: 'Danny Pink', relationship: 'Partner', phone: '+1 (555) 321-7655' }
@@ -268,7 +268,7 @@ export const mockPatients: Patient[] = [
       { name: 'Furosemide (Lasix)', dosage: '40mg', frequency: 'Once daily (QD)', startDate: '2026-06-28', status: 'Active' }
     ],
     previousPrescriptions: [
-      { id: 'rx-501', date: '2026-06-15', name: 'Lisinopril', dosage: '10mg', frequency: 'Once daily', doctorName: 'Dr. Sarah Chen, MD', refills: 0 }
+      { id: 'rx-501', date: '2026-06-15', name: 'Lisinopril', dosage: '10mg', frequency: 'Once daily', doctorName: 'Dr. Adithi, MD', refills: 0 }
     ],
     emergencyContacts: [
       { name: 'Gilda Dent', relationship: 'Spouse', phone: '+1 (555) 246-8102' }
@@ -312,7 +312,7 @@ export const mockAppointments: Appointment[] = [
       { status: 'Scheduled', timestamp: '2026-06-25 09:00 AM', description: 'Appointment booked by clinical coordinator' },
       { status: 'Reminder Sent', timestamp: '2026-07-02 08:30 AM', description: 'Automated SMS reminder dispatched to patient' },
       { status: 'Arrived / Waiting', timestamp: '2026-07-03 08:15 AM', description: 'Patient checked in at front desk, vitals recorded' },
-      { status: 'Consulting', timestamp: '2026-07-03 08:32 AM', description: 'Consultation with Dr. Chen started' },
+      { status: 'Consulting', timestamp: '2026-07-03 08:32 AM', description: 'Consultation with Dr. Adithi started' },
       { status: 'Completed', timestamp: '2026-07-03 08:55 AM', description: 'Consultation completed. EMR notes filed' }
     ]
   },
@@ -333,7 +333,7 @@ export const mockAppointments: Appointment[] = [
       { status: 'Scheduled', timestamp: '2026-06-28 02:15 PM', description: 'Appointment booked via Web Portal' },
       { status: 'Reminder Sent', timestamp: '2026-07-02 10:00 AM', description: 'Email reminder sent' },
       { status: 'Arrived / Waiting', timestamp: '2026-07-03 09:45 AM', description: 'Patient checked in, waiting in lounge' },
-      { status: 'Consulting', timestamp: '2026-07-03 10:02 AM', description: 'Active consultation with Dr. Chen' }
+      { status: 'Consulting', timestamp: '2026-07-03 10:02 AM', description: 'Active consultation with Dr. Adithi' }
     ]
   },
   {

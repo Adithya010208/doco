@@ -91,7 +91,7 @@ const medicineUsageData = [
 
 // Doctor Clinical Scorecard
 const doctorPerformanceData = [
-  { name: 'Dr. Sarah Chen', specialty: 'Cardiology Clinic', patients: 540, satisfaction: 99.2, consultTime: '22.4 min', rating: 4.9, activeTreatments: 124 },
+  { name: 'Dr. Adithi', specialty: 'Cardiology Clinic', patients: 540, satisfaction: 99.2, consultTime: '22.4 min', rating: 4.9, activeTreatments: 124 },
   { name: 'Dr. Alexander Patel', specialty: 'Internal Medicine', patients: 420, satisfaction: 96.8, consultTime: '18.5 min', rating: 4.7, activeTreatments: 98 },
   { name: 'Dr. Marcus Vance', specialty: 'Emergency Trauma', patients: 280, satisfaction: 97.4, consultTime: '14.2 min', rating: 4.8, activeTreatments: 45 },
   { name: 'Dr. Emily Taylor', specialty: 'Rehab & Recovery', patients: 360, satisfaction: 98.9, consultTime: '25.1 min', rating: 4.9, activeTreatments: 110 },
