@@ -1,0 +1,6 @@
+{
+  "name": "DOCO Doctor Portal",
+  "description": "A premium, responsive healthcare SaaS platform and doctor management portal foundation, featuring comprehensive patient and appointment tracking, real-time analytics, and secure session flows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
